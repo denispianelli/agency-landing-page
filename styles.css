@@ -133,10 +133,14 @@
   font-size: var(--font-size-1);
   font-weight: var(--font-weight-2);
   text-transform: uppercase;
+	z-index: 2;
 }
 
 .article {
   background-color: #fffbf8;
+	display: flex;
+	flex-direction: column;
+	padding: 3rem 0;
 }
 
 .section__button::before {
